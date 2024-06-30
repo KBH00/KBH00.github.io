@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
-const prefix =
-  process.env.NODE_ENV === 'production' ? 'https://kbh00.github.io/' : ''
+// const prefix =
+//   process.env.NODE_ENV === 'production' ? 'https://kbh00.github.io/' : ''
 
 
 const nextConfig = {
@@ -9,11 +9,12 @@ const nextConfig = {
    *
    */
   output: "export",
-  assetPrefix: prefix,
+  // assetPrefix: prefix,
   /**
    * Set base path. This is usually the slug of your repository.
    *
    */
+  basePath: "/kbh00.github.io",
   /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.
