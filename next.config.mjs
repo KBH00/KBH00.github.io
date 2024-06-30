@@ -15,7 +15,6 @@ const nextConfig = {
    *
    */
   reactStrictMode: true,
-  basePath: "/",
   /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.
