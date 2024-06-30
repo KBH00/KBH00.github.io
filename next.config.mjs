@@ -5,6 +5,7 @@ const nextConfig = {
    *
    */
   output: "export",
+  reactStrictMode: true,
 
   /**
    * Set base path. This is usually the slug of your repository.
