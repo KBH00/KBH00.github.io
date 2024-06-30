@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
+const prefix =
+  process.env.NODE_ENV === 'production' ? 'https://KBH00.github.io/KBH00.github.io/' : ''
+
+
 const nextConfig = {
   /**
    * Enable static exports for the App Router.
@@ -6,7 +10,7 @@ const nextConfig = {
    */
   output: "export",
   reactStrictMode: true,
-
+  assetPrefix: prefix,
   /**
    * Set base path. This is usually the slug of your repository.
    *
