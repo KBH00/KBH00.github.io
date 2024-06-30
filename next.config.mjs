@@ -9,14 +9,11 @@ const nextConfig = {
    *
    */
   output: "export",
-  reactStrictMode: true,
   assetPrefix: prefix,
   /**
    * Set base path. This is usually the slug of your repository.
    *
    */
-  basePath: "/kbh00.github.io",
-
   /**
    * Disable server-based image optimization. Next.js does not support
    * dynamic features with static exports.
