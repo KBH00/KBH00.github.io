@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const prefix =
-  process.env.NODE_ENV === 'production' ? 'https://KBH00.github.io/KBH00.github.io/' : ''
+  process.env.NODE_ENV === 'production' ? 'https://kbh00.github.io/' : ''
 
 
 const nextConfig = {
@@ -15,7 +15,7 @@ const nextConfig = {
    * Set base path. This is usually the slug of your repository.
    *
    */
-  basePath: "/KBH00.github.io",
+  basePath: "/kbh00.github.io",
 
   /**
    * Disable server-based image optimization. Next.js does not support
